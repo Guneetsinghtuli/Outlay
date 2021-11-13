@@ -9,6 +9,7 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
+import Navbar from "./Components/Nav Bar/Navbar";
 import Signup from "./Components/signup/signup";
 import IntroCourse from "./Components/Introduction Course/IntroCourse";
 import Pc from "./Components/Particular Couse/Pc";
@@ -16,65 +17,75 @@ import Pred from "./Components/prediction/Pred";
 import Profile from "./Components/Profile/Profile";
 import CourseOver from "./Components/course overview/CourseOver";
 import Basic from "./Components/Basics/Basic";
+import Navbar2 from "./Components/Nav Bar 2/Navbar2";
 
 function App() {
   return (
     <Router>
       <Switch>
-      {/* Completely DOne */}
+        {/* Completely DOne */}
         <Route exact path="/">
+          <Navbar />
           <Home />
           <Footer />
         </Route>
         {/* Completely DOne */}
         <Route exact path="/login">
-            <Login />
-            <Footer />
-          </Route>
-          {/* ASK AGE */}
-          <Route exact path="/signup">
-            <Signup />
-            <Footer />
-          </Route>
-          <Route exact path="/login/dashboard">
-            <Dashboard />
-            <Footer />
-          </Route>
-          {/* Completely */}
-          <Route exact path="/login/prediction">
-            <Pred />
-            <Footer />
-          </Route>
-          {/* Small Changes */}
-          <Route exact path="/login/profile">
-            <Profile />
-            <Footer />
-          </Route>
-          <Route exact path="/course-1-pg1">
-            <IntroCourse />
-            <Footer />
-          </Route>
-          <Route exact path="/course-1-pg2">
-            <Basic />
-            <Footer />
-          </Route>
-          <Route exact path="/course-overview">
-            <CourseOver />
-            <Footer />
-          </Route>
-          {/* Small Changes */}
-          <Route exact path="/course-info">
-            <Pc />
-            <Footer />
-          </Route>
-          <Route path="/404">
-            <Error />
-            <Footer />
-          </Route>
+          <Navbar />
+          <Login />
+          <Footer />
+        </Route>
+        {/* ASK AGE */}
+        <Route exact path="/signup">
+          <Navbar />
+          <Signup />
+          <Footer />
+        </Route>
+        <Route exact path="/login/dashboard">
+          <Navbar2/>
+          <Dashboard />
+          <Footer />
+        </Route>
+        {/* Completely */}
+        <Route exact path="/login/prediction">
+          <Navbar2/>
+          <Pred />
+          <Footer />
+        </Route>
+        {/* Small Changes */}
+        <Route exact path="/login/profile">
+          <Navbar2/>
+          <Profile />
+          <Footer />
+        </Route>
+        <Route exact path="/course-1-pg1">
+          <Navbar2/>
+          <IntroCourse />
+          <Footer />
+        </Route>
+        <Route exact path="/course-1-pg2">
+          <Navbar2/>
+          <Basic/>
+          <Footer/>
+        </Route>
+        <Route exact path="/course-overview">
+          <Navbar2/>
+          <CourseOver/>
+          <Footer/>
+        </Route>
+        {/* Small Changes */}
+        <Route exact path="/course-info">
+          <Navbar2/>
+          <Pc />
+          <Footer />
+        </Route>
+        <Route path="/404">
+          <Navbar2/>
+          <Error/>
+          <Footer/>
+        </Route>
       </Switch>
     </Router>
-
-    
   );
 }
 
