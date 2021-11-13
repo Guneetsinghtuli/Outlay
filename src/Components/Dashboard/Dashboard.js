@@ -5,7 +5,7 @@ import './dashboard.css'
 import Card from '../home/Card'
 import { useHistory } from 'react-router'
 import Goal from './Goal'
-import Card from './Card.js'
+// import Card from './Card.js'
 import ContinueNothing from './continueNothing.js'
 
 const Dashboard = () => {
