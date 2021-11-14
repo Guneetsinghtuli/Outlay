@@ -10,7 +10,7 @@ const CourseOver = () => {
                 <img src="./images/course.jpg" alt="" className="course-hero--img" /> */}
 
                     <div className="buttonco">
-                        <a href ="/#" className="nav-button--grp4 primary--button4">Courses to get you started!</a>
+                        <a href ="./course-info" className="nav-button--grp4 primary--button4">Courses to get you started!</a>
                     </div>
                     
                         <img src="./images/learning.png" alt="" className="course-hero--img" />

@@ -5,7 +5,7 @@
     
 }
 .dash-main{
-    padding-top: 8rem;
+    padding-top: 4rem;
     background-color: #F9FBFE;
     font-family: M PLUS Rounded 1c;
 }
@@ -13,7 +13,6 @@
     
     font-family: 'M PLUS Rounded 1c';
     margin-bottom: 1rem;
-
     
 }
 .headinggoals{
@@ -21,7 +20,11 @@
     margin-left: 1rem;
     font-weight: bold;
 }
-
+.border-heading--h2{
+    font-size: 20px;
+    padding: 1rem;
+    font-weight: 400;
+}
 .dash-hero{
     display: flex;
     flex-direction: column;
@@ -31,6 +34,12 @@
     border-radius: 1rem;
 }
 
+.dash-section2-content--heading{
+    font-size: 24px;
+}
+.dash-section2-content--text{
+    margin-top: 2rem;
+}
 .nav-button--grp2 {
     margin-right: 2rem;
     padding: 0.7rem 1.4rem 0.7rem 1.4rem;

@@ -21,9 +21,9 @@ const Home = () => {
                 <div className="third-container">
                     <h1 className="third-container--heading">What have we got for you?</h1>
                     <div className="third-container--card_container">
-                        <Card name="Complete Guide to Stock Market investment from scratch" working="true" page="home" />
-                        <Card name="Learn To pick the Mutual Find right for you" working="false" />
-                        <Card name="Getting started with investing in Cryptocurrency" working="false" />
+                        <Card name="Complete Guide to Stock Market investment from scratch" working="true" page="home" src="../images/Stock.jpg"/>
+                        <Card name="Learn To pick the Mutual Find right for you" working="false" src="../images/Mutual.jpg"/>
+                        <Card name="Getting started with investing in Cryptocurrency" working="false" src="../images/Crypto.jpg"/>
                     </div>
                 </div>
                 <div className="fourth-container">
@@ -48,10 +48,10 @@ const Home = () => {
                         </h1>
                     </div>
                     <div className="fifth-container--card_container">
-                        <DevCard name="Tilak Atri" message="Currently into MERN stack, I am a development freak and a coding enthusiast and look forward for providing more services regarding this." />
-                        <DevCard name="Guneet Singh" message="Been into back end since forever and want to change the norms for society by providing solutions to problems persisting in daily life." />
-                        <DevCard name="Divyanshi Choudhary" message="A content writer by heart, The UI designs that are seen on this website are designed by me along with my team and this is what my specialization is." />
-                        <DevCard name="Harshul Namdev" message="Front end development being my forte, I have done various projects in this field providing me good amount of exposure as well as the skills required." />
+                        <DevCard name="Tilak Atri" message="Currently into MERN stack, I am a development freak and a coding enthusiast and look forward for providing more services regarding this." src="../images/Tilak.jpeg"/>
+                        <DevCard name="Guneet Singh" message="Been into back end since forever and want to change the norms for society by providing solutions to problems persisting in daily life." src="../images/Guneet.jpeg"/>
+                        <DevCard name="Divyanshi Choudhary" message="A content writer by heart, The UI designs that are seen on this website are designed by me along with my team and this is what my specialization is." src="../images/Divyanshi.jpg"/>
+                        <DevCard name="Harshul Namdev" message="Front end development being my forte, I have done various projects in this field providing me good amount of exposure as well as the skills required." src="../images/Harshul.jpg"/>
                     </div>
                 </div>
             </div>

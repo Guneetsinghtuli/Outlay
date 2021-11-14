@@ -70,6 +70,7 @@ function App() {
             <Footer />
           </Route>
           <Route exact path="/spinner">
+          <Navbar2 />
             <Spinner />
             <Footer />
           </Route>
@@ -86,10 +87,12 @@ function App() {
           </Route>
           {/* Small Changes */}
           <Route exact path="/course-info">
+          <Navbar2 />
             <Pc />
             <Footer />
           </Route>
           <Route exact path="/404">
+          <Navbar2 />
             <Error />
             <Footer />
           </Route>
@@ -97,6 +100,7 @@ function App() {
             <Alertmessg/>
           </Route> */}
           <Route path="*">
+          <Navbar2 />
             <Error />
             <Footer />
           </Route>

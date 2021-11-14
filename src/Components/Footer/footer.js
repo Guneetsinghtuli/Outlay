@@ -7,7 +7,7 @@ const Footer = () => {
             <div className="main-container-footer">
                 <div className="about-us common-set">
                     <h2 className="footer-heading">About us</h2>
-                    <a href="/#/#" className="about-us--text footer-anchor">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis aspernatur ad rerum cum dolor.</a>
+                    <a href="/#/#" className="about-us--text footer-anchor">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br/> Corporis debitis aspernatur ad rerum cum dolor.</a>
                 </div>
                 <div className="services common-set">
                     <h2 className="footer-heading">Services</h2>
@@ -17,7 +17,7 @@ const Footer = () => {
                     <a href="/#" className="services-text footer-anchor">Help</a>
                 </div>
                 <div className="connect-with-us common-set">
-                    <h2 className="footer-heading">Connect with us</h2>
+                    <h2 className="footer-heading">Connect</h2>
                     <a href="/#" className="connect-with-us-text footer-anchor"><Icons className="fab fa-instagram" />Instagram</a>
                     <a href="/#" className="connect-with-us-text footer-anchor"><Icons className="fab fa-facebook" />Facebook</a>
                     <a href="/#" className="connect-with-us-text footer-anchor"><Icons className="fab fa-linkedin" />LinkedIn</a>

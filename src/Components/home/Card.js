@@ -19,7 +19,7 @@ const Card = (props) => {
     return (
         <>
             <div className="third-container--card">
-                <img src="../images/black.jpg" alt="" className="third-container--card-image" />
+                <img src={props.src} alt="" className="third-container--card-image" />
                 <div className="third-container--card-content">
                     <h3 className="card-title">{props.heading}{props.name}</h3>
                     <p className="card-content">4 modules / 26 hours lecture</p><br/> <br/>
